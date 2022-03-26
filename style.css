@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #abecd7;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    height: 10%;
+    width: 90%;
+    background-color: black;
+    border-radius:30px;
+    z-index: -1;
+    opacity: 0.3;
+}
+.navbar{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+}
+.navbar .heading{
+    font-size: 50px;
+}
+.search{
+    display: flex;
+    
+    align-items: center;
+}
+.navbar input{
+    height: 40px;
+    border-radius: 15px;
+    margin-right: 8px;
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+#btn{
+    height: 30px;
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+}
+/* Main Section */
+.main{
+    width: 50%;
+    margin: 40px auto;
+    font-style: oblique;
+}
+.main h1{
+    margin-bottom: 20px;
+}
+.main h3{
+    margin-bottom: 20px; 
+}
+.main textarea{
+    width: 100%;
+    outline: none;
+    resize: none;
+    padding: 20px;
+    border-radius: 33px;
+}
+#addbtn{
+    margin: 20px 0 0 30px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(26, 175, 26);
+    background-color: #28c90f;
+    
+}
+#addbtn:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+#show{
+    margin-top: 30px;
+}
+/* Showing notes styling */
+.btn{
+    margin: 20px 0 20px 0;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid rgb(26, 175, 26);
+    background-color: #28c90f;
+}
+.btn:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+.notecard{
+    width: 18rem; 
+    box-shadow: 6px 7px 9px;
+    background-color:  rgb(97 150 170);
+    text-align: center;
+    border-radius: 25px;
+}
+.notecard h5{
+    margin: 9px 0 9px 0;
+    font-size: 30px;
+}
+.notecard p{
+    font-size: 20px;
+}
